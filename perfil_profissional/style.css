@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d8f5fa;
+    color: #3606e4;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #00bcd4;
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.detalhes, .sobre, .perfil-lateral {
+    flex: 1;
+    min-width: 280px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.detalhes h2, .sobre h2 {
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.social-icons img {
+    width: 24px;
+    margin: 0 8px;
+}
+
+.creditos {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #79c2ec;
+    background-color: transparent;
+    color: #65e2eb;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #78ccf3;
+    color: #080505;
+}
+
+.perfil-lateral {
+    background-color: #acffff;
+    color: #0a0808;
+    text-align: center;
+}
+
+.perfil-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.perfil-lateral h3 {
+    margin-bottom: 10px;
+}
+
+.perfil-lateral p {
+    margin-bottom: 20px;
+}
